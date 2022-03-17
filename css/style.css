@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255, 0, 0, 1));
+}
+
+.container {
+    position: absolute;
+    background-color: #fff;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;    
+}
+
+.pressed-button {
+    padding: 10px;
+    text-align: end;
+    font-size: 16px;
+}
+
+.result-panel {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: end;
+}
+
+.buttons {
+    display: flex;
+    justify-items: center;
+}
+
+.btn {
+    width: 100%;
+    background-color: rgb(34, 32, 32);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn-equal {
+    width: 390%;
+    background-color: rgba(20, 4, 4, 0.815);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-left {
+    width: 100%;
+    background-color: rgba(12, 11, 11, 0.815);
+    padding: 20px;
+    color: rgb(168, 84, 6);
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgba(34, 32, 32, 0.801);
+}
+
+.btn-left:hover {
+    background-color: rgba(34, 32, 32, 0.801);
+}
+
+.btn-equal:hover {
+    background-color: rgba(34, 32, 32, 0.801);
+}
